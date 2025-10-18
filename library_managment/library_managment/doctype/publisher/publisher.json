@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "P.####",
+ "creation": "2025-10-16 17:23:13.100392",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "publisher_name",
+  "addresss",
+  "contact_number",
+  "email",
+  "website"
+ ],
+ "fields": [
+  {
+   "fieldname": "publisher_name",
+   "fieldtype": "Data",
+   "label": "publisher name"
+  },
+  {
+   "fieldname": "addresss",
+   "fieldtype": "Small Text",
+   "label": "addresss"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-17 11:34:17.390306",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Publisher",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "publisher_name"
+}

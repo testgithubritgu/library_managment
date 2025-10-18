@@ -1,0 +1,41 @@
+[
+ {
+  "article_name": "Rich dad poor dad",
+  "author": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "isbn": null,
+  "modified": "2025-10-16 17:13:51.733342",
+  "name": "25d78nqvh2",
+  "publisher": null,
+  "status": "Awailable"
+ },
+ {
+  "article_name": "dfsdf",
+  "author": "swapnil",
+  "description": "<div class=\"ql-editor read-mode\"><p>in this article contains my journey of web dev</p></div>",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": "/private/files/sample.jpg",
+  "isbn": null,
+  "modified": "2025-10-16 20:02:40.733220",
+  "name": "dfsdf",
+  "publisher": "swapnil",
+  "status": "Awailable"
+ },
+ {
+  "article_name": "swapnil",
+  "author": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "isbn": null,
+  "modified": "2025-10-17 08:53:30.233611",
+  "name": "swapnil",
+  "publisher": null,
+  "status": "Available"
+ }
+]

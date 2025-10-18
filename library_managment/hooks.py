@@ -4,6 +4,7 @@ app_publisher = "codeWithSwapnil"
 app_description = "App for manage library"
 app_email = "swapnilraut@gmail.com"
 app_license = "mit"
+fixtures = ["Book", "Author", "Publisher", "Custom Field", "Custom Script"]
 
 # Apps
 # ------------------

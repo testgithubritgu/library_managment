@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AUTHOR.####",
+ "creation": "2025-10-16 17:20:55.753232",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "author_name",
+  "email",
+  "date_of_birth",
+  "biography",
+  "number_of_books"
+ ],
+ "fields": [
+  {
+   "fieldname": "author_name",
+   "fieldtype": "Data",
+   "label": "Author Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "biography",
+   "fieldtype": "Small Text",
+   "label": "Biography"
+  },
+  {
+   "fieldname": "number_of_books",
+   "fieldtype": "Int",
+   "label": "Number of Books"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-17 14:06:56.400714",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Author",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "author_name"
+}
