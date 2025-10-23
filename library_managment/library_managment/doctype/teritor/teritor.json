@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:first_name",
+ "creation": "2025-10-20 08:57:28.893452",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "primary_email",
+  "column_break_pmdu",
+  "cell_phone",
+  "chapter",
+  "marital_status",
+  "full_name",
+  "section_break_abcs",
+  "route",
+  "published"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "first name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "last name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "primary_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "primary email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_pmdu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cell_phone",
+   "fieldtype": "Phone",
+   "label": "cell phone"
+  },
+  {
+   "fieldname": "chapter",
+   "fieldtype": "Link",
+   "label": "chapter",
+   "options": "Article"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "marital status",
+   "options": "married\nunmarried",
+   "reqd": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "published"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full name"
+  },
+  {
+   "fieldname": "section_break_abcs",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-20 12:38:34.876035",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Teritor",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

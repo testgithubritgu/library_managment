@@ -26,6 +26,7 @@
   {
    "fieldname": "contact_number",
    "fieldtype": "Data",
+   "in_standard_filter": 1,
    "label": "Contact Number"
   },
   {
@@ -42,7 +43,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-17 11:34:17.390306",
+ "modified": "2025-10-21 12:49:42.638704",
  "modified_by": "Administrator",
  "module": "Library Managment",
  "name": "Publisher",

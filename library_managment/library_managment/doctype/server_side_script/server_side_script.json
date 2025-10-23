@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:first_name",
+ "creation": "2025-10-21 13:47:41.066235",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "primary_email",
+  "column_break_pmdu",
+  "cell_phone",
+  "chapter",
+  "marital_status",
+  "full_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "first name",
+   "options": "Article",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "last name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "primary_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "primary email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_pmdu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cell_phone",
+   "fieldtype": "Phone",
+   "label": "cell phone"
+  },
+  {
+   "fieldname": "chapter",
+   "fieldtype": "Link",
+   "label": "chapter",
+   "options": "Article"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "marital status",
+   "options": "married\nunmarried",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full name"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-22 00:53:21.588907",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "server side script",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
