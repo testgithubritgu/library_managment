@@ -1,7 +1,5 @@
 ### Library Managment
 
-test
-
 App for manage library
 
 ### Installation
